@@ -1,7 +1,6 @@
 # PR Response Doc — CineLog Watchlist Feature
 
 ## AI Usage
-I used Claude Code throughout this PR, mainly for three things.
 
 First, codebase orientation before writing anything. Before renaming `save_to_watchlist`, I had it grep the repo for every call site so I knew the rename was safe. Before writing the dedup check, I had it walk through `add_to_collection()`'s existing pattern in services/collection_service.py so the watchlist version followed the same convention instead of inventing something new.
 
