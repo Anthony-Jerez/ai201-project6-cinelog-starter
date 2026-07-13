@@ -8,7 +8,7 @@ Second, diagnosing the rebase. Before running `git rebase origin/main`, I had it
 
 Third, verifying the final commit history against the conventional commits spec, and helping tighten the prose in this doc.
 
-For Comments 4 and 5, I wrote my own position and reasoning first, the arguments above are mine. I asked Claude to write that reasoning up in this doc's format and tighten the phrasing, not to come up with the argument itself. The core claims (public default lowers sharing friction and matches how similar apps behave, date added sort should match `get_collection()` for consistency) are mine.
+For Comments 4 and 5, I wrote my own position and reasoning first, the arguments above are mine. I asked Claude to write that reasoning up in this doc's format, not to come up with the argument itself. The core claims (public default lowers sharing friction and matches how similar apps behave, date added sort should match `get_collection()` for consistency) are mine.
 
 ## Comment 1 — Rename
 **What I did:** Renamed `save_to_watchlist()` to `add_to_watchlist()` in services/watchlist_service.py, then updated the one call site in routes/watchlist/watchlist.py (both the import line and the actual function call in `add_film`).
