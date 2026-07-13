@@ -108,7 +108,7 @@ Expect the film back with `date_added` and `public: true`.
 
 ### Final commit history
 
-<img width="760" height="105" alt="Screenshot 2026-07-06 at 3 01 26 AM" src="https://github.com/user-attachments/assets/b978f27c-b27e-4642-97b4-acc56991b537" />
+<img width="991" height="182" alt="Screenshot 2026-07-13 at 3 02 49 AM" src="https://github.com/user-attachments/assets/8a6a0b04-255c-45df-8f0d-48276ab56077" />
 
 `git log --oneline` against `main`, after the interactive rebase into conventional commit format:
 ```
