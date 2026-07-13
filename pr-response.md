@@ -107,6 +107,9 @@ Expect the film back with `date_added` and `public: true`.
 6. Add a second film and repeat step 4. The second film should now be first in the list, confirming the newest added first ordering from Comment 5.
 
 ### Final commit history
+
+<img width="760" height="105" alt="Screenshot 2026-07-06 at 3 01 26 AM" src="https://github.com/user-attachments/assets/b978f27c-b27e-4642-97b4-acc56991b537" />
+
 `git log --oneline` against `main`, after the interactive rebase into conventional commit format:
 ```
 docs: add pr-response.md covering all six review comments and PR description
@@ -118,6 +121,4 @@ fix: rename save_to_watchlist to add_to_watchlist per naming convention
 fix: update film retrieval method to use db.session.get in collection and watchlist services
 feat: add watchlist model and add_to_watchlist endpoint
 ```
-(Hash of the top commit isn't listed since amending this file to add this section changes that commit's own hash. The 7 commits below it are stable.)
-
 8 commits, all conventional, no merge commits in this branch's own history (the branch is rebased onto `origin/main`, not merged).
